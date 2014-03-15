@@ -1,0 +1,9 @@
+#!/bin/bash
+#
+# Perform necessary dogecoin removal steps
+# after package is uninstalled.
+#
+
+echo "dogecoin has been uninstalled!"
+
+exit 0

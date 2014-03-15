@@ -1,0 +1,12 @@
+name            "dogecoin"
+maintainer      "Nathan Milford <nathan@milford.io>"
+homepage        "https://github.com/dogecoin"
+replaces        "dogecoin"
+install_path    "/opt/dogecoin"
+build_version   "1.6"
+build_iteration 2 
+dependency      "preparation"
+dependency      "version-manifest"
+dependency      "dogecoin"
+exclude         "\.git*"
+exclude         "bundler\/git"
